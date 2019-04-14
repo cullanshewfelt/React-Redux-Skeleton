@@ -5,7 +5,6 @@ import ReactModal from 'react-modal';
 import Loader from './SubComponents/Loader';
 import {initializeData} from '../actions/dataActions';
 
-
 class Dashboard extends React.Component {
   constructor(props) {
     super(props)
@@ -22,13 +21,12 @@ class Dashboard extends React.Component {
   render() {
     return (
       <section class="section">
-        <div class="container">
-          <h1 class="title">
-            Hello World
-          </h1>
-          <p class="subtitle">
-            My first website with <strong>Bulma</strong>!
-          </p>
+        <div class="columns">
+          <div class="column">1</div>
+          <div class="column">2</div>
+          <div class="column">3</div>
+          <div class="column">4</div>
+          <div class="column">5</div>
         </div>
       </section>
     )}

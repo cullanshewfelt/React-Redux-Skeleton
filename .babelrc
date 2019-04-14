@@ -4,10 +4,13 @@
     "@babel/react"
   ],
   "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose" : true }],
     "emotion",
     "transform-class-properties",
     "@babel/plugin-proposal-object-rest-spread",
     "@babel/plugin-syntax-dynamic-import",
     "@babel/plugin-transform-runtime"
+
   ]
 }

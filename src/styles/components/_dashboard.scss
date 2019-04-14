@@ -1,3 +1,54 @@
+html {
+  // font-size: 62.5%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: $outrun-blue;
+  // line-height: $m-size;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  // font-size: 1rem;
+}
+
+h2.navlink-header{
+  margin: 20px 0 20px 0;
+}
+
+h2.dashboard-header{
+  margin: 20px 0 30px 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.loading {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border-color: red;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  height: 15%;
+  width: 100%;
+  background-color: dodgerblue;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+
 .header{
   text-align: center;
 }
@@ -5,6 +56,7 @@
 .select{
 
 }
+
 
 .selected{
   background: $hover-gray;
