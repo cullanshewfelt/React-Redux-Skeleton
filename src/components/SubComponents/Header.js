@@ -4,24 +4,46 @@ import {NavLink} from 'react-router-dom';
 import Loader from './Loader';
 import {initializeData} from '../../actions/dataActions';
 
-const Header = (props) => {
-  const NavBar = () => (
-    <div>
-      <h2 className='header__subtitle navlink-header'>
-        <NavLink id='main' to='/Main' activeClassName="selected">Home</NavLink> |
-      </h2>
-    </div>
-  )
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  state = {
+    isHamburgeOpen: false
+  }
+
+  toggleMenu = () => {
+    this.setState({isHamburgeOpen: !this.state.isHamburgeOpen})
+  }
+
+  render(){
   return(
-    <div className='header'>
-      <div className='container'>
-        <h1 className='header__title'><NavLink to ='/'>Cullan Shewfelt</NavLink></h1>
-        {/* conditionally render NavBar once selectedComposers finishes loading from our API,
-        because it data structure in our state with the most data in it */}
-        <NavBar/>
+    <nav className="navbar" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
+        <NavLink id='main' className="navbar-item" to="/">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, & modern CSS framework based on Flexbox" width="112" height="28"/>
+        </NavLink>
+        <NavLink
+          onClick={this.toggleMenu}
+          className={`button navbar-burger ${this.state.isHamburgeOpen ? 'is-active' : ''}`}
+        >
+          <span />
+          <span />
+          <span />
+        </NavLink>
       </div>
-    </div>
-  )
+      <div
+        className={`navbar-menu ${this.state.isHamburgeOpen ? 'is-active' : ''}`}
+      >
+        <div className="navbar-start">
+          <NavLink className="navbar-item is-capitalized" href='/'>
+            Home
+          </NavLink>
+        </div>
+      </div>
+    </nav>
+  )}
 }
 
 const mapStateToProps = (state) => {
