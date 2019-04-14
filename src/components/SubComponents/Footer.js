@@ -14,10 +14,13 @@ class Footer extends React.Component {
 
    render(){
      return(
-       <div className='footer'>
-         <h2 style={{'display':'flex','justifyContent':'center','alignItems':'center'}}>Footer
-         </h2>
-      </div>
+       <footer className="footer is-hidden-mobile">
+         <div className="content has-text-centered">
+           <p>
+             <strong>Portfolio</strong> by <a href="https://github.com/cullanshewfelt">Cullan Shewfelt</a>.
+           </p>
+         </div>
+       </footer>
     )
   }
 }

@@ -20,13 +20,13 @@ class Dashboard extends React.Component {
 
   render() {
     return (
-      <section class="section">
-        <div class="columns">
-          <div class="column">1</div>
-          <div class="column">2</div>
-          <div class="column">3</div>
-          <div class="column">4</div>
-          <div class="column">5</div>
+      <section className="section">
+        <div className="columns">
+          <div className="column">1</div>
+          <div className="column">2</div>
+          <div className="column">3</div>
+          <div className="column">4</div>
+          <div className="column">5</div>
         </div>
       </section>
     )}
