@@ -1,0 +1,78 @@
+
+.navbar{
+  background-color: black;
+  // bottom: 0;
+  // padding: 2% 0% 2%;
+  width: 100%;
+  border-style: inset;
+  border-color: $retro-purps;
+}
+
+
+.navbar-brand{
+  min-height: 10%;
+  padding: 2% 0% 1%;
+}
+
+.Gravedigger{
+  font-family: Gravedigger;
+  font-size: 44px;
+  margin-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+
+}
+
+.navbar-burger{
+  background-color: black;
+  color: $retro-purps;
+  border-color: $retro-purps;
+  // padding: 0px 0 16 16px;
+  margin-top: 3px;
+  margin-right: 18px;
+  margin-bottom: 0px;
+}
+
+.Spac3_Neon{
+  color: $retro-purps;
+  font-family: Spac3_Neon;
+  font-size: 44px;
+  padding: 0px 16px 0 24px;
+  margin-bottom: 8px;
+  margin-right: 16px;
+}
+
+.Spac3_Tech{
+  color: $retro-purps;
+  font-family: Spac3_Tech;
+  font-size: 44px;
+  padding: 0px 16px 0 24px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+.neptune{
+  font-family: Neptune;
+  font-size: 44px;
+  padding: 0px 16px 0 16px;
+}
+
+a.navbar-item:hover{
+  background-color: $retro-purps;
+  color: black;
+}
+
+.navbar-item-open{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-item-close{
+  color: $retro-purps;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}

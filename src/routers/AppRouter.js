@@ -1,9 +1,9 @@
 import React, { lazy, Suspense} from 'react';
 import { BrowserRouter, Link, NavLink, Route, Switch} from 'react-router-dom';
-import Header from '../components/SubComponents/Header';
-import Footer from '../components/SubComponents/Footer';
+import Header from '../components/SubComponents/Header/Header';
+import Footer from '../components/SubComponents/Footer/Footer';
 
-import Dashboard from '../components/Dashboard';
+import Dashboard from '../components/Dashboard/Dashboard';
 
 import Loader from '../components/SubComponents/Loader';
 

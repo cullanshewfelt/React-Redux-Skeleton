@@ -3,4 +3,9 @@
 
 @import './base/settings';
 @import './base/base';
-@import './components/dashboard';
+@import './base/fonts';
+
+// @import './components/dashboard';
+@import '../components/Dashboard/dashboard';
+@import '../components/SubComponents/Header/header';
+@import '../components/SubComponents/Footer/footer';

@@ -1,0 +1,76 @@
+html {
+  // font-size: 62.5%;
+  color: $retro-purps;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-size: 20px;
+  // font-family: Helvetica, Arial, sans-serif;
+  background-color: $retro-purps;
+  background-image: url('./images/boxes.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  // line-height: $m-size;
+  height: 100%;
+  overflow: hidden;
+}
+
+// Anurati
+// Azonix
+// Blanka
+// Dual-300
+// Halogen
+// Gravedigger
+// Gtek
+// Neptune
+// Rock_Rinder
+// Spac3_Neon
+// Spac3_Tech
+// Trench
+
+
+.column-1{
+  font-family: Gravedigger;
+}
+
+.column-2{
+  font-family: Rock_Rinder;
+}
+
+.column-3{
+  font-family: Spac3_Tech;
+
+}
+
+.column-4{
+  font-family: Neptune;
+
+}
+
+.loading {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border-color: red;
+}
+
+.selected{
+  background: $hover-gray;
+}
+
+.dashboard{
+  margin: 0 6% 0 6%;
+}
+
+::-webkit-scrollbar { // MAKES SCROLLBAR TRANSPARENT
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.scrollableDiv {
+   overflowY: hidden;
+}
