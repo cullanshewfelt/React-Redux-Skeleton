@@ -20,7 +20,7 @@ class Dashboard extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container dashboard">
         <section className="section">
           <div className="columns is-centered">
             <div className="column-1 is-one-quarter">cs cullan shewfelt</div>

@@ -45,13 +45,13 @@ class Header extends React.Component {
       >
         <div className="navbar-start">
           <NavLink className={`navbar-item ${this.state.isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/'>
-            Home
+            home
           </NavLink>
           <NavLink className={`navbar-item ${this.state.isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/Portfolio'>
-            Portfolio
+            portfolio
           </NavLink>
           <NavLink className={`navbar-item ${this.state.isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/Contact'>
-            Contact
+            contact
           </NavLink>
         </div>
       </div>
