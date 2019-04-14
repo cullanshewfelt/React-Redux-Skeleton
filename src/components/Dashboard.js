@@ -21,15 +21,16 @@ class Dashboard extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className='dashboard'>
-          <div className='container'>
-            Hello
-            123
-          </div>
-
+      <section class="section">
+        <div class="container">
+          <h1 class="title">
+            Hello World
+          </h1>
+          <p class="subtitle">
+            My first website with <strong>Bulma</strong>!
+          </p>
         </div>
-      </div>
+      </section>
     )}
   }
 
