@@ -9,9 +9,56 @@
 }
 
 
+
+
 .navbar-brand{
   min-height: 10%;
   padding: 2% 0% 1%;
+}
+
+
+.navbar-menu{
+  background-color: black;
+}
+
+.Twolines{
+  color: $retro-purps;
+  font-family: Twolines;
+  font-size: 44px;
+  margin-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.AndromedaEclipsis{
+  color: $retro-purps;
+  font-family: AndromedaEclipsis;
+  font-size: 60px;
+  margin-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  margin-right: 16px;
+}
+
+.barcade{
+  color: $retro-purps;
+  font-family: barcade;
+  font-size: 44px;
+  margin-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  margin-right: 16px;
+}
+
+.Earth-Orbiter{
+  color: $retro-purps;
+  font-family: Earth-Orbiter;
+  font-size: 44px;
+  margin-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  margin-right: 16px;
+
 }
 
 .Gravedigger{
@@ -28,17 +75,17 @@
   color: $retro-purps;
   border-color: $retro-purps;
   // padding: 0px 0 16 16px;
-  margin-top: 3px;
+  margin-top: 4px;
   margin-right: 18px;
   margin-bottom: 0px;
 }
 
-.Spac3_Neon{
+.Spac3_Neon{ // my favorite
   color: $retro-purps;
   font-family: Spac3_Neon;
   font-size: 44px;
   padding: 0px 16px 0 24px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   margin-right: 16px;
 }
 
@@ -57,12 +104,21 @@
   padding: 0px 16px 0 16px;
 }
 
+.Trench{
+  color: $retro-purps;
+  font-family: Trench;
+  font-size: 36px;
+  padding: 0px 16px 0 16px;
+}
+
 a.navbar-item:hover{
   background-color: $retro-purps;
   color: black;
 }
 
 .navbar-item-open{
+  background-color: black;
+  color: $retro-purps;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
@@ -75,4 +131,15 @@ a.navbar-item:hover{
   padding-bottom: 0px;
   margin-top: 60px;
   margin-bottom: 0px;
+}
+
+.button.is-active {
+    border-color: $retro-purps;
+    color: $retro-purps;
+}
+
+
+.button.is-hovered, .button:hover {
+  border-color: $retro-purps;
+  color: $retro-purps;
 }

@@ -22,10 +22,14 @@ class Header extends React.Component {
   return(
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        {/* <div className='Gravedigger'>c s</div> */}
-
+        {/* <div className='AndromedaEclipsis'>c s</div> */}
+        {/* <div className='Earth-Orbiter'>c s</div> */}
+        {/* <div className='Twolines'>c s</div> */}
         <div className='Spac3_Neon'>c s</div>
+        {/* <div className='barcade'>&lt;c s&gt;</div> */}
+        {/* <div className='barcade'>(c s)</div> */}
         {/* <div className='Spac3_Tech'>c s</div> */}
+        {/* <div className='Gravedigger'>c s</div> */}
 
         <button
           onClick={this.toggleMenu}
