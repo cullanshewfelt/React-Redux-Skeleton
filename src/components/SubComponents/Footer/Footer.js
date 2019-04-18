@@ -32,6 +32,7 @@ class Footer extends React.Component {
                src={require("./images/icons/github_fold.png")}
              />
            </a>
+
          </div>
        </footer>
     )

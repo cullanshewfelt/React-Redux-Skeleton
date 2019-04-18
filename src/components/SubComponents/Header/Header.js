@@ -17,23 +17,22 @@ class Header extends React.Component {
     this.setState({isHamburgerOpen: !this.state.isHamburgerOpen})
   }
 
+  closeMenu = () => {
+    this.state.isHamburgerOpen && this.setState({isHamburgerOpen: !this.state.isHamburgerOpen})
+  }
+
   render(){
     let {isHamburgerOpen} = this.state
+    let toggleMenu = this.toggleMenu;
+    let closeMenu = this.closeMenu;
+
   return(
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        {/* <div className='AndromedaEclipsis'>c s</div> */}
-        {/* <div className='Earth-Orbiter'>c s</div> */}
-        {/* <div className='Twolines'>c s</div> */}
         <div className='Spac3_Neon'>c s</div>
-        {/* <div className='barcade'>&lt;c s&gt;</div> */}
-        {/* <div className='barcade'>(c s)</div> */}
-        {/* <div className='Spac3_Tech'>c s</div> */}
-        {/* <div className='Gravedigger'>c s</div> */}
-
         <button
           onClick={this.toggleMenu}
-          className={`button navbar-burger ${this.state.isHamburgerOpen ? 'is-active' : ''}`}
+          className={`button navbar-burger ${isHamburgerOpen ? 'is-active' : ''}`}
         >
           <span />
           <span />
@@ -41,16 +40,19 @@ class Header extends React.Component {
         </button>
       </div>
       <div
-        className={`navbar-menu ${this.state.isHamburgerOpen ? 'is-active' : ''}`}
+        className={`navbar-menu ${isHamburgerOpen ? 'is-active' : ''}`}
       >
         <div className="navbar-start">
-          <NavLink className={`navbar-item ${this.state.isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/'>
+          <div className={`navbar-item ${isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`}>
+            cullan shewfelt | developer
+          </div>
+          <NavLink className={`navbar-item ${isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/' onClick={closeMenu}>
             home
           </NavLink>
-          <NavLink className={`navbar-item ${this.state.isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/Portfolio'>
+          <NavLink className={`navbar-item ${isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/Portfolio' onClick={closeMenu}>
             portfolio
           </NavLink>
-          <NavLink className={`navbar-item ${this.state.isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/Contact'>
+          <NavLink className={`navbar-item ${isHamburgerOpen ? 'navbar-item-open' : 'navbar-item-close'}`} to='/Contact' onClick={closeMenu}>
             contact
           </NavLink>
         </div>

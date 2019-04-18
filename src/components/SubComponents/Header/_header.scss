@@ -9,25 +9,106 @@
 }
 
 
-
-
 .navbar-brand{
   min-height: 10%;
   padding: 2% 0% 1%;
 }
 
-
 .navbar-menu{
-  // overflow: hidden;
   background-color:black;
-  // background-image: linear-gradient($retro-purps .1px, transparent .1px),
-  //                   linear-gradient(90deg, $retro-purps .1px, transparent .1px),
-  //                   linear-gradient($retro-purps 1px, transparent 1px),
-  //                   linear-gradient(90deg, $retro-purps 1px, transparent 1px);
-  //
-  // background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  // background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
+
+.navbar-item{
+  font-family: Gtek;
+}
+
+.navbar-burger{
+  background-color: black;
+  color: $retro-purps;
+  border-color: $retro-purps;
+  // padding: 0px 0 16 16px;
+  margin-top: 4px;
+  margin-right: 18px;
+  margin-bottom: 0px;
+}
+
+
+
+a.navbar-item:hover{
+  background-color: $retro-purps;
+  color: black;
+}
+
+.navbar-item-open{
+  background-color: black;
+  color: $retro-purps;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-item-close{
+  color: $retro-purps;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.button.is-active {
+    border-color: $retro-purps;
+    color: $retro-purps;
+}
+
+
+.button.is-hovered, .button:hover {
+  border-color: $retro-purps;
+  color: $retro-purps;
+}
+
+
+
+
+// FONTS
+
+
+
+
+
+.Spac3_Neon{ // my favorite
+  color: $retro-purps;
+  font-family: Spac3_Neon;
+  font-size: 44px;
+  padding: 0px 16px 0 24px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+.Spac3_Tech{
+  color: $retro-purps;
+  font-family: Spac3_Tech;
+  font-size: 44px;
+  padding: 0px 16px 0 24px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+.neptune{
+  font-family: Neptune;
+  font-size: 44px;
+  padding: 0px 16px 0 16px;
+}
+
+.Trench{
+  color: $retro-purps;
+  font-family: Trench;
+  font-size: 36px;
+  padding: 0px 16px 0 16px;
+}
+
+
+
 
 .Twolines{
   color: $retro-purps;
@@ -76,82 +157,4 @@
   margin-top: 0px;
   margin-bottom: 4px;
 
-}
-
-.navbar-burger{
-  background-color: black;
-  color: $retro-purps;
-  border-color: $retro-purps;
-  // padding: 0px 0 16 16px;
-  margin-top: 4px;
-  margin-right: 18px;
-  margin-bottom: 0px;
-}
-
-.Spac3_Neon{ // my favorite
-  color: $retro-purps;
-  font-family: Spac3_Neon;
-  font-size: 44px;
-  padding: 0px 16px 0 24px;
-  margin-bottom: 0px;
-  margin-right: 16px;
-}
-
-.Spac3_Tech{
-  color: $retro-purps;
-  font-family: Spac3_Tech;
-  font-size: 44px;
-  padding: 0px 16px 0 24px;
-  margin-bottom: 0px;
-  margin-right: 16px;
-}
-
-.neptune{
-  font-family: Neptune;
-  font-size: 44px;
-  padding: 0px 16px 0 16px;
-}
-
-.Trench{
-  color: $retro-purps;
-  font-family: Trench;
-  font-size: 36px;
-  padding: 0px 16px 0 16px;
-}
-
-a.navbar-item{
-  font-family: Gtek;
-}
-
-a.navbar-item:hover{
-  background-color: $retro-purps;
-  color: black;
-}
-
-.navbar-item-open{
-  background-color: black;
-  color: $retro-purps;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.navbar-item-close{
-  color: $retro-purps;
-  padding-top: 12px;
-  padding-bottom: 0px;
-  margin-top: 60px;
-  margin-bottom: 0px;
-}
-
-.button.is-active {
-    border-color: $retro-purps;
-    color: $retro-purps;
-}
-
-
-.button.is-hovered, .button:hover {
-  border-color: $retro-purps;
-  color: $retro-purps;
 }
