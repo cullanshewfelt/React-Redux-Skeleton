@@ -6,6 +6,7 @@ import Loader from '../SubComponents/Loader';
 import {initializeData} from '../../actions/dataActions';
 
 const Portfolio = () => {
+  document.title = 'Cullan Shewfelt | Portfolio';
   return (
     <div className='container portfolio-dashboard'>
       <section className='section'>

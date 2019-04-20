@@ -6,6 +6,7 @@ import Loader from '../SubComponents/Loader';
 import {initializeData} from '../../actions/dataActions';
 
 const Contact = () => {
+  document.title = 'Cullan Shewfelt | Contact';
   return (
     <div className='container dashboard'>
       <section className='section'>

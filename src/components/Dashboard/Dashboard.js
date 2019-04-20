@@ -5,20 +5,8 @@ import ReactModal from 'react-modal';
 import Loader from '../SubComponents/Loader';
 import {initializeData} from '../../actions/dataActions';
 
-class Dashboard extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
-  componentDidMount() {
-
-  }
-
-  componentDidUpdate(prevProps, prevState) {
-
-  }
-
-  render() {
+const Dashboard = () => {
+  document.title = 'Cullan Shewfelt | Web Developer';
     return (
       <div className="container dashboard">
         <section className="section">
@@ -48,18 +36,7 @@ class Dashboard extends React.Component {
           </div>
         </section>
       </div>
-
-    )}
+    )
   }
 
-const mapStateToProps = (state) => {
-  return {
-    data: state.data
-  }
-}
-
-const mapDispatchToProps = {
-  initializeData
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);
+export default connect()(Dashboard);
