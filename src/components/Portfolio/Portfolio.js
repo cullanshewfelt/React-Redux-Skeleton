@@ -5,28 +5,21 @@ import ReactModal from 'react-modal';
 import Loader from '../SubComponents/Loader';
 import {initializeData} from '../../actions/dataActions';
 
-class Portfolio extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
-  componentDidMount() {
-
-  }
-
-  componentDidUpdate(prevProps, prevState) {
-
-  }
-
-  render() {
-    return (
-      <div className='container dashboard'>
+const Portfolio = () => {
+  document.title = 'Cullan Shewfelt | Portfolio';
+  return (
+    <div className='dashboard'>
+      <div className='container'>
         <section className='section'>
           <div className='columns is-centered'>
-            <div className='column is-full has-text-centered'>Contact Me</div>
+            <div className='column is-full has-text-centered'>
+              <h1>Portfolio</h1>
+            </div>
           </div>
           <div className='columns is-centered'>
-            <div className='column is-two-fifths has-text-centered'>Email</div>
+            <div className='column is-two-fifths has-text-centered'>
+              <h2>DL Music</h2>
+            </div>
             <div className='colum is-one-fifth'> </div>
             <div className='column is-two-fifths has-text-centered'>cs cullan shewfelt</div>
           </div>
@@ -37,18 +30,20 @@ class Portfolio extends React.Component {
           </div>
         </section>
       </div>
-
-    )}
-  }
-
-const mapStateToProps = (state) => {
-  return {
-    data: state.data
-  }
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    </div>
+  )
 }
 
-const mapDispatchToProps = {
-  initializeData
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Portfolio);
+export default connect()(Portfolio);

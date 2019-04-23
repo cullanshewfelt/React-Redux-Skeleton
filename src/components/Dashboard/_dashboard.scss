@@ -1,5 +1,4 @@
 html {
-  // font-size: 62.5%;
   color: $retro-purps;
   height: 100%;
   overflow: hidden;
@@ -7,64 +6,30 @@ html {
 
 body {
   font-size: 20px;
-  // font-family: Helvetica, Arial, sans-serif;
-  // background-color: $retro-purps;
-  // background-image: url('./images/boxes.png');
-  // background-repeat: repeat;
-  // background-position: center;
-  // background-blend-mode: multiply;
-  // line-height: $m-size;
   height: 100%;
-  // overflow: hidden;
-  // background-color:black;
-  // background-image: linear-gradient($retro-purps .5px, transparent .5px),
-  //                   linear-gradient(90deg, $retro-purps .5px, transparent .5px),
-  //                   linear-gradient($retro-purps 1px, transparent 1px),
-  //                   linear-gradient(90deg, $retro-purps 1px, transparent 1px);
-  //
-  // background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  // background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
-
+.tile.is-child{
+  margin: 20px 10px 0 10px !important;
+  color: black !important;
+  background-color: $retro-purps !important;
+}
 .dashboard::after {
-  // content: "";
-  // background-image: linear-gradient($retro-purps .5px, transparent .5px),
-  //                   linear-gradient(90deg, $retro-purps .5px, transparent .5px),
-  //                   linear-gradient($retro-purps 1px, transparent 1px),
-  //                   linear-gradient(90deg, $retro-purps 1px, transparent 1px);
-  // opacity: 0.5;
-  // top: 0;
-  // left: 0;
-  // bottom: 0;
-  // right: 0;
-  // position: absolute;
-  // z-index: -1;
-  // height: 100%;
-  // width: 100%;
 }
 
 .dashboard{
-  // overflow: hidden;
-  // background: rgba(0,0,0,0.7);
-  // background-color:black;
-  // background-image: linear-gradient($retro-purps .5px, transparent .5px),
-  //                   linear-gradient(90deg, $retro-purps .5px, transparent .5px),
-  //                   linear-gradient($retro-purps 1px, transparent 1px),
-  //                   linear-gradient(90deg, $retro-purps 1px, transparent 1px);
-  //
-  // background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  // background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
-  // opacity: .50;
-  // height: 100%;
-  // width: 100%;
+  background-color: black;
+
+}
+
+.container {
+
 }
 
 .section{
-  // margin: 0 6% 0 6%;
-  position: relative;
-  // opacity: 1.0;
+
 }
+
 // Anurati
 // Azonix
 // Blanka
