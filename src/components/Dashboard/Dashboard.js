@@ -8,7 +8,7 @@ import {initializeData} from '../../actions/dataActions';
 const Dashboard = () => {
   document.title = 'Cullan Shewfelt | Web Developer';
     return (
-      <div className='dashboard'>
+      <div className='dashboard has-navbar-fixed-top'>
         <div className="tile is-ancestor">
           <div className="tile is-vertical is-8">
             <div className="tile">

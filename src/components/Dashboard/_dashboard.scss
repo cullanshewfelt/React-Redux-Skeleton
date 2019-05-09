@@ -1,5 +1,5 @@
 html {
-  color: $retro-purps;
+  color: $retro-pink;
   height: 100%;
   overflow: hidden;
 }
@@ -12,7 +12,7 @@ body {
 .tile.is-child{
   margin: 20px 10px 0 10px !important;
   color: black !important;
-  background-color: $retro-purps !important;
+  background-color: $retro-pink !important;
 }
 .dashboard::after {
 }

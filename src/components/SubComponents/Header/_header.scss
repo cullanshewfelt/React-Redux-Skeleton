@@ -5,7 +5,7 @@
   // padding: 2% 0% 2%;
   width: 100%;
   border-style: inset;
-  border-color: $retro-purps;
+  border-color: $retro-pink;
 }
 
 
@@ -24,8 +24,8 @@
 
 .navbar-burger{
   background-color: black;
-  color: $retro-purps;
-  border-color: $retro-purps;
+  color: $retro-pink;
+  border-color: $retro-pink;
   // padding: 0px 0 16 16px;
   margin-top: 4px;
   margin-right: 18px;
@@ -35,13 +35,13 @@
 
 
 a.navbar-item:hover{
-  background-color: $retro-purps;
+  background-color: $retro-pink;
   color: black;
 }
 
 .navbar-item-open{
   background-color: black;
-  color: $retro-purps;
+  color: $retro-pink;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
@@ -49,7 +49,7 @@ a.navbar-item:hover{
 }
 
 .navbar-item-close{
-  color: $retro-purps;
+  color: $retro-pink;
   padding-top: 12px;
   padding-bottom: 0px;
   margin-top: 60px;
@@ -57,14 +57,14 @@ a.navbar-item:hover{
 }
 
 .button.is-active {
-    border-color: $retro-purps;
-    color: $retro-purps;
+    border-color: $retro-pink;
+    color: $retro-pink;
 }
 
 
 .button.is-hovered, .button:hover {
-  border-color: $retro-purps;
-  color: $retro-purps;
+  border-color: $retro-pink;
+  color: $retro-pink;
 }
 
 
@@ -77,7 +77,7 @@ a.navbar-item:hover{
 
 
 .Spac3_Neon{ // my favorite
-  color: $retro-purps;
+  color: $retro-pink;
   font-family: Spac3_Neon;
   font-size: 44px;
   padding: 0px 16px 0 24px;
@@ -86,7 +86,7 @@ a.navbar-item:hover{
 }
 
 .Spac3_Tech{
-  color: $retro-purps;
+  color: $retro-pink;
   font-family: Spac3_Tech;
   font-size: 44px;
   padding: 0px 16px 0 24px;
@@ -101,7 +101,7 @@ a.navbar-item:hover{
 }
 
 .Trench{
-  color: $retro-purps;
+  color: $retro-pink;
   font-family: Trench;
   font-size: 36px;
   padding: 0px 16px 0 16px;
@@ -111,7 +111,7 @@ a.navbar-item:hover{
 
 
 .Twolines{
-  color: $retro-purps;
+  color: $retro-pink;
   font-family: Twolines;
   font-size: 44px;
   margin-left: 18px;
@@ -120,7 +120,7 @@ a.navbar-item:hover{
 }
 
 .AndromedaEclipsis{
-  color: $retro-purps;
+  color: $retro-pink;
   font-family: AndromedaEclipsis;
   font-size: 60px;
   margin-left: 18px;
@@ -130,7 +130,7 @@ a.navbar-item:hover{
 }
 
 .barcade{
-  color: $retro-purps;
+  color: $retro-pink;
   font-family: barcade;
   font-size: 44px;
   margin-left: 18px;
@@ -140,7 +140,7 @@ a.navbar-item:hover{
 }
 
 .Earth-Orbiter{
-  color: $retro-purps;
+  color: $retro-pink;
   font-family: Earth-Orbiter;
   font-size: 44px;
   margin-left: 18px;
