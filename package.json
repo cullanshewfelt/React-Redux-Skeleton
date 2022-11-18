@@ -57,7 +57,7 @@
     "url-loader": "^1.1.2",
     "validator": "^10.11.0",
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.6",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.7.2"
   },
   "devDependencies": {
@@ -69,6 +69,6 @@
     "@types/react": "^16.8.23",
     "react-inlinesvg": "^0.8.4",
     "redux-devtools": "^3.5.0",
-    "svg-inline-loader": "^0.8.0"
+    "svg-inline-loader": "^0.8.2"
   }
 }
